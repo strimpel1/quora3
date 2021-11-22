@@ -1,0 +1,339 @@
+<html>
+    <head>
+        <title>Technology - BBC News</title>
+        <style type="text/css">
+            
+            #topbar {
+                width: 100%;
+                top: 0;
+                margin: 0 auto;
+                border-bottom: 1px #CCCCCC solid;
+                background-color: white;
+                position: fixed;
+            }
+            
+            #container{
+                width: 1500px;
+                margin: 0 auto;
+                padding-bottom: 15px;
+                height: 40px;
+            }
+            
+            body {
+                
+                font-family: Helvetica, Arial, sans-serif;
+                height: 2000px;
+            }
+            
+            #logo {
+                margin-top: 15px;
+                width: 100px;
+                float: left;
+                margin-right: 30px;
+            }
+            
+            .topbar-section{
+                float: left;
+                margin: 7px 8px;
+                height: 100%;
+
+    
+            }
+            
+            
+            #search-box{
+                border: 0;
+                padding: 8px;
+                margin-top: 5px;
+
+            }
+            
+            #search-box:focus{
+                border: 0
+                
+            }
+            
+            #search-icon{
+                float: left;
+                width: 30px;
+                margin: 6px;
+            }
+            
+            #search-panel{
+                border: 1px #CCCCCC solid;
+            }
+            
+            #try {
+                border: 1px #cccccc solid;
+                border-radius: 20px;
+                width: 120px;
+                height: 40px;
+                background-color:  #f7f7f8;
+                float: left;
+            }
+            
+            #try:hover{
+                background-color: #DCDCDC;
+            }
+            
+            .greyed:hover{
+               opacity: 80%;
+            }
+            
+            #facebook{
+                width: 40px;
+                border-radius: 50%;
+                float: left;
+                
+            }
+            
+            #world{
+                width: 35px;
+                border-radius: 50%;
+                margin-top: 3px;
+                float: left;
+            }
+            
+            #add-but{
+                color: white;
+                border: 1px #cccccc solid;
+                border-radius: 20px;
+                width: 150px;
+                height: 40px;
+                float: left;
+                background-color: red;
+            }
+            
+            #add-but:hover{
+                background-color: darkred;
+            }
+            
+            a.topic{
+                background-color: whitesmoke;
+                padding: 3px;
+                text-decoration: none;
+                color: grey;
+            
+            }
+            a.topic:visited{
+                color: grey;
+            }
+            
+            #main-article{
+                margin-left: 10%;
+                margin-top: 70px;
+                width: 55%;
+                height: 100%;
+            
+            }
+            
+            #answerbutton{
+                 border: 0;
+                border-radius: 20px;
+                width: 120px;
+                height: 40px;
+                background-color:  white;
+                float: left;
+            
+            }
+            
+              #answerbutton:hover{
+                float: left;
+                background-color: gainsboro;
+                border: 0;
+                border-radius: 50px;
+        
+            }
+            
+                   #answerbuttonr{
+                 border: 0;
+                border-radius: 20px;
+                width: 50px;
+                height: 40px;
+                background-color:  white;
+                float: right;
+            
+            }
+            
+              #answerbuttonr:hover{
+                float: right;
+                background-color: gainsboro;
+                border: 0;
+                border-radius: 50px;
+        
+            }
+            
+            .edit-topic-icon{
+            
+                width: 15px;
+                background-color: white;
+                border: 0;
+            }
+            
+            .bt{
+                border: 0;
+                background-color: white;
+            }
+            
+            .bt:hover{
+                opacity: 70%;
+            }
+            
+            .transpernt-icon{
+                background: transparent;
+                width: 30px;
+            }
+            
+            #answers-num{
+                margin-top: 15px;
+                width: 100%;
+                float: left;
+                border-top: 1px #CCCCCC solid;
+                border-bottom: 1px #CCCCCC solid;
+            }
+            
+            #answer-col{
+                float: left;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            
+            .profile{
+                margin-left: 20px;
+                font-size: 28px;
+                float: left;
+                text-decoration: none;
+                color: black;
+            }
+            
+            #answer-text{
+                margin-left: 20px;
+                font-size: 20px;
+                float: left;
+            }
+        </style>
+    
+    
+    </head>
+    <body>
+    <div id="topbar" >
+        <div id="container">
+             <img id="logo" src="images/logo.png">
+                <div id="signin-in" class="topbar-section">
+                  <input class="greyed"  type="image" src="images/home-icon.png">
+                </div>
+                <div class="topbar-section">
+                  <input class="greyed"  type="image" src="images/following-icon.PNG">
+                </div>
+                <div class="topbar-section">
+                  <input  class="greyed"  type="image" src="images/answer-icon.PNG">            
+                </div>
+                <div class="topbar-section">
+                   <input class="greyed" type="image" src="images/spaces-icon.PNG">
+                </div>
+                <div class="topbar-section">
+                   <input  class="greyed" type="image" src="images/notification-icon.PNG">
+                </div>
+                
+            <div id="search-panel" class="topbar-section">
+                <img id="search-icon" src="images/search-icon.PNG">
+                <input id="search-box" type="text" placeholder=" Search Quora">
+            </div>
+            
+            <div class=topbar-section>
+            <input id="try" type="button" value="Try Qura+"> 
+            </div>
+            
+            <div class=topbar-section>
+            <input id="facebook" class="greyed" type="image" src="images/facebook.jpg"> 
+            </div>
+            
+            <div class=topbar-section>
+            <input id="world" class="greyed" type="image" src="images/world-icon.png"> 
+            </div>
+            
+            <div class=topbar-section>
+            <input id="add-but" type="button" value="Add question"> 
+            </div>
+            
+            
+            
+        </div>
+    </div>
+        
+        
+    <div id="main-article">
+        <div id="qouestions">
+            <a class="topic" href="">Switzerland</a>
+            <a class="topic" href="">Zürich</a>
+            <a class="topic" href="">Facts and Trivia</a>
+            <a class="topic" href="">Europe </a>
+            <button class="topic bt"><img class="edit-topic-icon" src="images/pen-icon.PNG"/> </button>
+        
+        <span><h2>What facts about Switzerland do foreigners not believe until they come to Switzerland? </h2></span>
+            
+            <button id="answerbutton"><img class="transpernt-icon" src="images/pngwing.com.png"> <span> Answer</span></button>
+            
+            <button id="answerbutton"><img class="transpernt-icon" src="images/wifi.png"> <span> Follow</span></button>
+            
+            <button id="answerbutton"><img class="transpernt-icon" src="images/add-user-icon-png-5.png"> <span> Request</span></button>
+            
+        
+            
+          
+         
+            
+            
+            <button id="answerbuttonr"><img class="transpernt-icon" src="images/down.png"> </button>
+              <button id="answerbuttonr"><img class="transpernt-icon" src="images/share.png"></button>
+               <button id="answerbuttonr"><img class="transpernt-icon" src="images/more.png"></button>
+              <button id="answerbuttonr"><img class="transpernt-icon" src="images/chat.png"></button>
+            
+            
+        </div>
+        <div id="answers-num">
+        <h3> 98 Answers</h3>
+        </div>
+        
+        <div id=answer-col>
+             <input id="facebook" class="greyed" type="image" src="images/facebook.jpg">
+             <img src="images/add.png" style="float: right" width="80px">
+            
+           <a class="profile" href="">Nadav Ohayon,</a>
+           <span id="answer-text">
+            travelled to over 30 countries in Europe, Asia and MENA
+            <br>
+             <br>
+            I lived in Switzerland for one year. As a foreigner I can tell:
+            
+            <ul>
+                <li> Do not flush toilet after 10 PM in Geneva. Keep it for tomorrow. Otherwise police will knock your door after 15–20 minutes.</li>
+                <br>
+                <li>You do not need a car in Geneva, it can be additional burden. Public transportation is well organized.</li>
+                <br>
+                <li>Although tap water in Switzerland is safe to drink still many people buy large bottled waters from markets for daily usage at home.</li>
+                <br>
+                <li>It is very green. Unlike many other countries they keep parks as natural as possible (without pavements).</li>
+            </ul>
+               <img src="images/train.jfif">
+               <br>
+               <br>
+               It is has not happened to me personally but I knew people who had been complaining about it. It is not the law but rules set up by landlords. You will not be arrested or fined by police, you will just be warned. For some people it is a myth and for some it is reality.
+              
+            </span>
+        </div>
+        <div id="answerNav">
+        <button id="try"><img class="transpernt-icon" src="images/up.png" style="width: 10px;"> <span> 676</span>
+            
+            <img class="transpernt-icon" src="images/down.png" style="width: 15px; margin-left: 5px;  border-left:1px grey solid;"></button>
+            <button id="answerbutton"><img class="transpernt-icon" src="images/reload.png"> <span style="font-size: 28px;">4</span></button>
+            <button id="answerbutton"><img class="transpernt-icon" src="images/chat.png"> <span style="font-size: 28px;">68</span></button>
+        </div>
+        
+    </div>
+        
+    
+    </body>
+
+
+</html>
